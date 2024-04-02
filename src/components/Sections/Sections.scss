@@ -1,0 +1,28 @@
+.sections {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  background: linear-gradient(180deg, #6FA8FF 0%, #326EC9 52.5%, #0149B4 100%);
+  height: 100vh;
+  padding-top: 18px;
+
+  &__link {
+    width: 75%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 19px;
+    display: flex;
+    gap: 12px;
+    margin-left: 2%;
+
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #A3AED0;
+
+    &--active {
+      color: #333;
+      font-weight: bold;
+    }
+  }
+}

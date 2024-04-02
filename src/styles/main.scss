@@ -1,0 +1,14 @@
+.app {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@import './reset.scss';

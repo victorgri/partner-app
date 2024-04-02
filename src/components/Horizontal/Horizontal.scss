@@ -1,0 +1,23 @@
+.horizontal {
+  display: flex;
+  margin-bottom: 31px;
+  gap: 17px;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 65px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  &__title {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 32px;
+    color: #000;
+    letter-spacing: -2%;
+  }
+}
